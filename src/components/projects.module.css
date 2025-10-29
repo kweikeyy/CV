@@ -1,0 +1,23 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.project {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    padding: 20px 25px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.project h3 {
+    color: var(--accent);
+    margin-bottom: 8px;
+}
